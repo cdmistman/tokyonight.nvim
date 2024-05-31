@@ -1,5 +1,32 @@
 # Changelog
 
+## [3.1.0](https://github.com/cdmistman/tokyonight.nvim/compare/v3.0.1...v3.1.0) (2024-05-31)
+
+
+### Features
+
+* added support for indentmini ([3c19449](https://github.com/cdmistman/tokyonight.nvim/commit/3c194496dd5b640e1aefd9492c34d04ddbb1f136))
+* added support for mini.diff ([9afae4d](https://github.com/cdmistman/tokyonight.nvim/commit/9afae4de8d335a421ee9d2205373b1ad6c854fb2))
+* better colors for neotree git modified / untracked ([e7ff2f0](https://github.com/cdmistman/tokyonight.nvim/commit/e7ff2f06b0550907afc8243089fda7a478827474))
+* **extras:** add yazi theme ([#521](https://github.com/cdmistman/tokyonight.nvim/issues/521)) ([2969eb4](https://github.com/cdmistman/tokyonight.nvim/commit/2969eb4e31c23fc0dc98d8b793df10b598aed762))
+* **extras:** edit yazi find_position bg to NoiceVirtualText bg ([#532](https://github.com/cdmistman/tokyonight.nvim/issues/532)) ([1a9dff7](https://github.com/cdmistman/tokyonight.nvim/commit/1a9dff7f18cd21009d0633ee81f80fea36d061ae))
+* **ibl:** use blue for indent context ([db0a4d4](https://github.com/cdmistman/tokyonight.nvim/commit/db0a4d4c5de8b76f37855f3108a9288a4df1a2cb))
+* new style for line nr ([aabb529](https://github.com/cdmistman/tokyonight.nvim/commit/aabb52985c316368c482deb10e1529852f7feddd))
+* **sublime:** added support for highlighting errors/warnings for sublime (bat etc) ([d088b15](https://github.com/cdmistman/tokyonight.nvim/commit/d088b15433ee3db97fcdad615a0d4196157c4745))
+* **sublime:** highlights for info ([371220d](https://github.com/cdmistman/tokyonight.nvim/commit/371220dfee2172fed6c216dc1dc1b4732044afcf))
+* **telescope:** better hl for telescope result comments ([34a0572](https://github.com/cdmistman/tokyonight.nvim/commit/34a05722312423e21c2c929076c4b3d212a1538a))
+* **telescope:** prompt border in different color ([7ea04d5](https://github.com/cdmistman/tokyonight.nvim/commit/7ea04d5c257c93d9f1c84ab770f76edc6357a13c))
+
+
+### Bug Fixes
+
+* **gitui:** wrap values in Some ([#508](https://github.com/cdmistman/tokyonight.nvim/issues/508)) ([1372569](https://github.com/cdmistman/tokyonight.nvim/commit/1372569c9f318305bbe90abc4af6dc9dfd5cd8a4))
+* **markdown:** added [@markup](https://github.com/markup).italic ([8885b75](https://github.com/cdmistman/tokyonight.nvim/commit/8885b75288de659c14ec9ae6782a79a2056030b9))
+* **python:** import name from semantic tokens from basedpyright ([2983390](https://github.com/cdmistman/tokyonight.nvim/commit/2983390e0ee59a40c02bb90df9bad860f251534a))
+* re-add `[@punctuation](https://github.com/punctuation).special` ([#484](https://github.com/cdmistman/tokyonight.nvim/issues/484)) ([b37bc55](https://github.com/cdmistman/tokyonight.nvim/commit/b37bc55d10fd575e9b7b713c59e07c85cb810f67))
+* **treesitter:** correctly link up delimiters again ([8c11d30](https://github.com/cdmistman/tokyonight.nvim/commit/8c11d30a24c5ac8b719048ea4282466e9575b10f))
+* use regular fg for Bold/Italic ([710f901](https://github.com/cdmistman/tokyonight.nvim/commit/710f901c175087c5eeaa77f91dbef4845f3a192f))
+
 ## [3.0.1](https://github.com/folke/tokyonight.nvim/compare/v3.0.0...v3.0.1) (2024-01-21)
 
 
